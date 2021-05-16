@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538642342651A0D100D2A765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538642332651A0D100D2A765 /* AppDelegate.swift */; };
+		538642362651A0D100D2A765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538642352651A0D100D2A765 /* SceneDelegate.swift */; };
+		538642382651A0D100D2A765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538642372651A0D100D2A765 /* ViewController.swift */; };
+		5386423B2651A0D100D2A765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538642392651A0D100D2A765 /* Main.storyboard */; };
+		5386423D2651A0D200D2A765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5386423C2651A0D200D2A765 /* Assets.xcassets */; };
+		538642402651A0D200D2A765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5386423E2651A0D200D2A765 /* LaunchScreen.storyboard */; };
+		5386424B2651A0D200D2A765 /* CTABusTrackerV3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386424A2651A0D200D2A765 /* CTABusTrackerV3Tests.swift */; };
+		538642562651A0D200D2A765 /* CTABusTrackerV3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538642552651A0D200D2A765 /* CTABusTrackerV3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		538642472651A0D200D2A765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538642282651A0D100D2A765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5386422F2651A0D100D2A765;
+			remoteInfo = CTABusTrackerV3;
+		};
+		538642522651A0D200D2A765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538642282651A0D100D2A765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5386422F2651A0D100D2A765;
+			remoteInfo = CTABusTrackerV3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		538642302651A0D100D2A765 /* CTABusTrackerV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTABusTrackerV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538642332651A0D100D2A765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		538642352651A0D100D2A765 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		538642372651A0D100D2A765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5386423A2651A0D100D2A765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5386423C2651A0D200D2A765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5386423F2651A0D200D2A765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		538642412651A0D200D2A765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538642462651A0D200D2A765 /* CTABusTrackerV3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTABusTrackerV3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5386424A2651A0D200D2A765 /* CTABusTrackerV3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTABusTrackerV3Tests.swift; sourceTree = "<group>"; };
+		5386424C2651A0D200D2A765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538642512651A0D200D2A765 /* CTABusTrackerV3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTABusTrackerV3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		538642552651A0D200D2A765 /* CTABusTrackerV3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTABusTrackerV3UITests.swift; sourceTree = "<group>"; };
+		538642572651A0D200D2A765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5386422D2651A0D100D2A765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538642432651A0D200D2A765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386424E2651A0D200D2A765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538642272651A0D100D2A765 = {
+			isa = PBXGroup;
+			children = (
+				538642322651A0D100D2A765 /* CTABusTrackerV3 */,
+				538642492651A0D200D2A765 /* CTABusTrackerV3Tests */,
+				538642542651A0D200D2A765 /* CTABusTrackerV3UITests */,
+				538642312651A0D100D2A765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538642312651A0D100D2A765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538642302651A0D100D2A765 /* CTABusTrackerV3.app */,
+				538642462651A0D200D2A765 /* CTABusTrackerV3Tests.xctest */,
+				538642512651A0D200D2A765 /* CTABusTrackerV3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538642322651A0D100D2A765 /* CTABusTrackerV3 */ = {
+			isa = PBXGroup;
+			children = (
+				538642332651A0D100D2A765 /* AppDelegate.swift */,
+				538642352651A0D100D2A765 /* SceneDelegate.swift */,
+				538642372651A0D100D2A765 /* ViewController.swift */,
+				538642392651A0D100D2A765 /* Main.storyboard */,
+				5386423C2651A0D200D2A765 /* Assets.xcassets */,
+				5386423E2651A0D200D2A765 /* LaunchScreen.storyboard */,
+				538642412651A0D200D2A765 /* Info.plist */,
+			);
+			path = CTABusTrackerV3;
+			sourceTree = "<group>";
+		};
+		538642492651A0D200D2A765 /* CTABusTrackerV3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5386424A2651A0D200D2A765 /* CTABusTrackerV3Tests.swift */,
+				5386424C2651A0D200D2A765 /* Info.plist */,
+			);
+			path = CTABusTrackerV3Tests;
+			sourceTree = "<group>";
+		};
+		538642542651A0D200D2A765 /* CTABusTrackerV3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				538642552651A0D200D2A765 /* CTABusTrackerV3UITests.swift */,
+				538642572651A0D200D2A765 /* Info.plist */,
+			);
+			path = CTABusTrackerV3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5386422F2651A0D100D2A765 /* CTABusTrackerV3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5386425A2651A0D200D2A765 /* Build configuration list for PBXNativeTarget "CTABusTrackerV3" */;
+			buildPhases = (
+				5386422C2651A0D100D2A765 /* Sources */,
+				5386422D2651A0D100D2A765 /* Frameworks */,
+				5386422E2651A0D100D2A765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTABusTrackerV3;
+			productName = CTABusTrackerV3;
+			productReference = 538642302651A0D100D2A765 /* CTABusTrackerV3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		538642452651A0D200D2A765 /* CTABusTrackerV3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5386425D2651A0D200D2A765 /* Build configuration list for PBXNativeTarget "CTABusTrackerV3Tests" */;
+			buildPhases = (
+				538642422651A0D200D2A765 /* Sources */,
+				538642432651A0D200D2A765 /* Frameworks */,
+				538642442651A0D200D2A765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538642482651A0D200D2A765 /* PBXTargetDependency */,
+			);
+			name = CTABusTrackerV3Tests;
+			productName = CTABusTrackerV3Tests;
+			productReference = 538642462651A0D200D2A765 /* CTABusTrackerV3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		538642502651A0D200D2A765 /* CTABusTrackerV3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538642602651A0D200D2A765 /* Build configuration list for PBXNativeTarget "CTABusTrackerV3UITests" */;
+			buildPhases = (
+				5386424D2651A0D200D2A765 /* Sources */,
+				5386424E2651A0D200D2A765 /* Frameworks */,
+				5386424F2651A0D200D2A765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538642532651A0D200D2A765 /* PBXTargetDependency */,
+			);
+			name = CTABusTrackerV3UITests;
+			productName = CTABusTrackerV3UITests;
+			productReference = 538642512651A0D200D2A765 /* CTABusTrackerV3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538642282651A0D100D2A765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5386422F2651A0D100D2A765 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					538642452651A0D200D2A765 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5386422F2651A0D100D2A765;
+					};
+					538642502651A0D200D2A765 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5386422F2651A0D100D2A765;
+					};
+				};
+			};
+			buildConfigurationList = 5386422B2651A0D100D2A765 /* Build configuration list for PBXProject "CTABusTrackerV3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538642272651A0D100D2A765;
+			productRefGroup = 538642312651A0D100D2A765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5386422F2651A0D100D2A765 /* CTABusTrackerV3 */,
+				538642452651A0D200D2A765 /* CTABusTrackerV3Tests */,
+				538642502651A0D200D2A765 /* CTABusTrackerV3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5386422E2651A0D100D2A765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538642402651A0D200D2A765 /* LaunchScreen.storyboard in Resources */,
+				5386423D2651A0D200D2A765 /* Assets.xcassets in Resources */,
+				5386423B2651A0D100D2A765 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538642442651A0D200D2A765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386424F2651A0D200D2A765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5386422C2651A0D100D2A765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538642382651A0D100D2A765 /* ViewController.swift in Sources */,
+				538642342651A0D100D2A765 /* AppDelegate.swift in Sources */,
+				538642362651A0D100D2A765 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538642422651A0D200D2A765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5386424B2651A0D200D2A765 /* CTABusTrackerV3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386424D2651A0D200D2A765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538642562651A0D200D2A765 /* CTABusTrackerV3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		538642482651A0D200D2A765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5386422F2651A0D100D2A765 /* CTABusTrackerV3 */;
+			targetProxy = 538642472651A0D200D2A765 /* PBXContainerItemProxy */;
+		};
+		538642532651A0D200D2A765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5386422F2651A0D100D2A765 /* CTABusTrackerV3 */;
+			targetProxy = 538642522651A0D200D2A765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		538642392651A0D100D2A765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5386423A2651A0D100D2A765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5386423E2651A0D200D2A765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5386423F2651A0D200D2A765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		538642582651A0D200D2A765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		538642592651A0D200D2A765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5386425B2651A0D200D2A765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B63QQSLSD;
+				INFOPLIST_FILE = CTABusTrackerV3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc391.CTABusTrackerV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5386425C2651A0D200D2A765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B63QQSLSD;
+				INFOPLIST_FILE = CTABusTrackerV3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc391.CTABusTrackerV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5386425E2651A0D200D2A765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B63QQSLSD;
+				INFOPLIST_FILE = CTABusTrackerV3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc391.CTABusTrackerV3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTABusTrackerV3.app/CTABusTrackerV3";
+			};
+			name = Debug;
+		};
+		5386425F2651A0D200D2A765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B63QQSLSD;
+				INFOPLIST_FILE = CTABusTrackerV3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc391.CTABusTrackerV3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTABusTrackerV3.app/CTABusTrackerV3";
+			};
+			name = Release;
+		};
+		538642612651A0D200D2A765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B63QQSLSD;
+				INFOPLIST_FILE = CTABusTrackerV3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc391.CTABusTrackerV3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CTABusTrackerV3;
+			};
+			name = Debug;
+		};
+		538642622651A0D200D2A765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B63QQSLSD;
+				INFOPLIST_FILE = CTABusTrackerV3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc391.CTABusTrackerV3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CTABusTrackerV3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5386422B2651A0D100D2A765 /* Build configuration list for PBXProject "CTABusTrackerV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538642582651A0D200D2A765 /* Debug */,
+				538642592651A0D200D2A765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5386425A2651A0D200D2A765 /* Build configuration list for PBXNativeTarget "CTABusTrackerV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5386425B2651A0D200D2A765 /* Debug */,
+				5386425C2651A0D200D2A765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5386425D2651A0D200D2A765 /* Build configuration list for PBXNativeTarget "CTABusTrackerV3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5386425E2651A0D200D2A765 /* Debug */,
+				5386425F2651A0D200D2A765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538642602651A0D200D2A765 /* Build configuration list for PBXNativeTarget "CTABusTrackerV3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538642612651A0D200D2A765 /* Debug */,
+				538642622651A0D200D2A765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538642282651A0D100D2A765 /* Project object */;
+}
