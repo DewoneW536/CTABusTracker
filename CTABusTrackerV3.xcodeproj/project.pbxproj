@@ -15,6 +15,7 @@
 		538642402651A0D200D2A765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5386423E2651A0D200D2A765 /* LaunchScreen.storyboard */; };
 		5386424B2651A0D200D2A765 /* CTABusTrackerV3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386424A2651A0D200D2A765 /* CTABusTrackerV3Tests.swift */; };
 		538642562651A0D200D2A765 /* CTABusTrackerV3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538642552651A0D200D2A765 /* CTABusTrackerV3UITests.swift */; };
+		538642682651A19400D2A765 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538642672651A19400D2A765 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		538642512651A0D200D2A765 /* CTABusTrackerV3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTABusTrackerV3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538642552651A0D200D2A765 /* CTABusTrackerV3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTABusTrackerV3UITests.swift; sourceTree = "<group>"; };
 		538642572651A0D200D2A765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538642672651A19400D2A765 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5386D1C8265601820026559B /* gpxgenerator_path-2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "gpxgenerator_path-2.gpx"; path = "../../../Downloads/gpxgenerator_path-2.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538642682651A19400D2A765 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +83,12 @@
 		538642272651A0D100D2A765 = {
 			isa = PBXGroup;
 			children = (
+				5386D1C8265601820026559B /* gpxgenerator_path-2.gpx */,
 				538642322651A0D100D2A765 /* CTABusTrackerV3 */,
 				538642492651A0D200D2A765 /* CTABusTrackerV3Tests */,
 				538642542651A0D200D2A765 /* CTABusTrackerV3UITests */,
 				538642312651A0D100D2A765 /* Products */,
+				538642662651A19400D2A765 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +132,14 @@
 				538642572651A0D200D2A765 /* Info.plist */,
 			);
 			path = CTABusTrackerV3UITests;
+			sourceTree = "<group>";
+		};
+		538642662651A19400D2A765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				538642672651A19400D2A765 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
