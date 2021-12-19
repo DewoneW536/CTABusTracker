@@ -4,7 +4,7 @@ To add onto the original CTATrackerV3 application, this app uses the CTA API to 
 and will simulate a virtual walk around the area specified within the Chicago area. As the simulation takes place, multiple bus stops
 will appear as pins on the Map and will show the name of the bus station, along with the est. time until the next bus will arrive.
 ## Features
-1. Used Core Location to determine user current location and display the location on a map, then displays the information that is most
+1. Uses Core Location to determine user current location and display the location on a map, then displays the information that is most
 relevant to the user's current location in the app (i.e nearby stations with buses approaching).
 2. Dynamically updates and adjusts the display information of near-by stations and the upcoming buses as the user approaches a bus
 station.
